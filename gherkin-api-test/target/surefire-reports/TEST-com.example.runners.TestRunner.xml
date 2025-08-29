@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.runners.TestRunner" time="2.208" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/guramiivanidze/Desktop/projects/GherkinApiTest/gherkin-api-test/target/test-classes:/Users/guramiivanidze/Desktop/projects/GherkinApiTest/gherkin-api-test/target/classes:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-java/7.18.0/cucumber-java-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-core/7.18.0/cucumber-core-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-gherkin/7.18.0/cucumber-gherkin-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.18.0/cucumber-gherkin-messages-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/testng-xml-formatter/0.1.0/testng-xml-formatter-0.1.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/datatable/7.18.0/datatable-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-plugin/7.18.0/cucumber-plugin-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/docstring/7.18.0/docstring-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/html-formatter/21.3.1/html-formatter-21.3.1.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/junit-xml-formatter/0.4.0/junit-xml-formatter-0.4.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/guramiivanidze/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-junit/7.18.0/cucumber-junit-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/guramiivanidze/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/guramiivanidze/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/guramiivanidze/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/guramiivanidze/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/guramiivanidze/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/guramiivanidze/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/guramiivanidze/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/guramiivanidze/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/guramiivanidze/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/guramiivanidze/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/guramiivanidze/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/guramiivanidze/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/guramiivanidze/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/guramiivanidze/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/guramiivanidze/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/guramiivanidze/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/guramiivanidze/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/guramiivanidze/Desktop/projects/GherkinApiTest/gherkin-api-test/target/surefire/surefirebooter-20250829121022353_3.jar /Users/guramiivanidze/Desktop/projects/GherkinApiTest/gherkin-api-test/target/surefire 2025-08-29T12-10-22_308-jvmRun1 surefire-20250829121022353_1tmp surefire_0-20250829121022353_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/guramiivanidze/Desktop/projects/GherkinApiTest/gherkin-api-test/target/test-classes:/Users/guramiivanidze/Desktop/projects/GherkinApiTest/gherkin-api-test/target/classes:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-java/7.18.0/cucumber-java-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-core/7.18.0/cucumber-core-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-gherkin/7.18.0/cucumber-gherkin-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.18.0/cucumber-gherkin-messages-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/testng-xml-formatter/0.1.0/testng-xml-formatter-0.1.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/datatable/7.18.0/datatable-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-plugin/7.18.0/cucumber-plugin-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/docstring/7.18.0/docstring-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/html-formatter/21.3.1/html-formatter-21.3.1.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/junit-xml-formatter/0.4.0/junit-xml-formatter-0.4.0.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/guramiivanidze/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/guramiivanidze/.m2/repository/io/cucumber/cucumber-junit/7.18.0/cucumber-junit-7.18.0.jar:/Users/guramiivanidze/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/guramiivanidze/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/guramiivanidze/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/guramiivanidze/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/guramiivanidze/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/guramiivanidze/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/guramiivanidze/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/guramiivanidze/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/guramiivanidze/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/guramiivanidze/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/guramiivanidze/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/guramiivanidze/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/guramiivanidze/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/guramiivanidze/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/guramiivanidze/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/guramiivanidze/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/guramiivanidze/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/guramiivanidze/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/guramiivanidze"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/24.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/guramiivanidze/Desktop/projects/GherkinApiTest/gherkin-api-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/guramiivanidze/Desktop/projects/GherkinApiTest/gherkin-api-test/target/surefire/surefirebooter-20250829121022353_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.2"/>
+    <property name="user.name" value="guramiivanidze"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/guramiivanidze/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/zq/s5_mz9yx2q74zbff7ythfsv40000gn/T/"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="/Users/guramiivanidze/Desktop/projects/GherkinApiTest/gherkin-api-test"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/guramiivanidze/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="24.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="Create a new user" classname="User API Testing with reqres.in" time="1.206">
+    <system-out><![CDATA[
+Scenario: Create a new user                              # src/test/resources/features/user.feature:6
+  Given I set POST endpoint for user                     # com.example.steps.UserSteps.i_set_post_endpoint_for_user()
+  When I send POST request with name "John" and job "QA" # com.example.steps.UserSteps.i_send_post_request(java.lang.String,java.lang.String)
+  Then I receive valid status code 201                   # com.example.steps.UserSteps.i_receive_status_code(int)
+  And Response should contain name "John" and job "QA"   # com.example.steps.UserSteps.response_should_contain_name_and_job(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Get a list of users" classname="User API Testing with reqres.in" time="0.061">
+    <system-out><![CDATA[
+Scenario: Get a list of users          # src/test/resources/features/user.feature:12
+  Given I set GET endpoint for users   # com.example.steps.UserSteps.i_set_get_endpoint_for_users()
+  When I send GET request              # com.example.steps.UserSteps.i_send_get_request()
+  Then I receive valid status code 200 # com.example.steps.UserSteps.i_receive_status_code(int)
+  And Response should contain "data"   # com.example.steps.UserSteps.response_should_contain(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Update an existing user" classname="User API Testing with reqres.in" time="0.408">
+    <system-out><![CDATA[
+Scenario: Update an existing user                                     # src/test/resources/features/user.feature:18
+  Given I set PUT endpoint for user with id 2                         # com.example.steps.UserSteps.i_set_put_endpoint_for_user_with_id(java.lang.Integer)
+  When I send PUT request with name "Mike" and job "Developer"        # com.example.steps.UserSteps.i_send_put_request(java.lang.String,java.lang.String)
+  Then I receive valid status code 200                                # com.example.steps.UserSteps.i_receive_status_code(int)
+  And Response should contain updated name "Mike" and job "Developer" # com.example.steps.UserSteps.response_should_contain_updated_data(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Delete a user" classname="User API Testing with reqres.in" time="0.241">
+    <system-out><![CDATA[
+Scenario: Delete a user                          # src/test/resources/features/user.feature:24
+  Given I set DELETE endpoint for user with id 2 # com.example.steps.UserSteps.i_set_delete_endpoint_for_user_with_id(java.lang.Integer)
+  When I send DELETE request                     # com.example.steps.UserSteps.i_send_delete_request()
+  Then I receive valid status code 204           # com.example.steps.UserSteps.i_receive_status_code(int)
+]]></system-out>
+  </testcase>
+</testsuite>
