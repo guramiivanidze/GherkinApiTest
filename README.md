@@ -127,37 +127,6 @@ start target/cucumber-reports.html
 - **JUnit**: 4.13.2
 - **JSON**: 20240303
 
-## 🛠️ Development
-
-### Adding New Test Scenarios
-
-1. **Add Feature**: Create or modify `.feature` files in `src/test/resources/features/`
-2. **Implement Steps**: Add step definitions in `src/test/java/com/example/steps/`
-3. **Run Tests**: Execute `mvn clean test` to verify
-
-### Example Feature File
-```gherkin
-Feature: User API Testing
-  
-  Scenario: Create a new user
-    Given I set POST endpoint for user
-    When I send POST request with name "John" and job "QA"
-    Then I receive valid status code 201
-    And Response should contain name "John" and job "QA"
-```
-
-### Example Step Definition
-```java
-@When("I send POST request with name {string} and job {string}")
-public void i_send_post_request(String name, String job) {
-    response = given()
-            .header("Content-Type", "application/json")
-            .header("x-api-key", apiKey)
-            .body("{\"name\":\"" + name + "\", \"job\":\"" + job + "\"}")
-            .when()
-            .post(endpoint);
-}
-```
 
 ## � Troubleshooting
 
@@ -189,37 +158,4 @@ public void i_send_post_request(String name, String job) {
    - Verify API endpoints are accessible
    - Review test reports in `target/surefire-reports/`
 
-### Debug Mode
-```bash
-# Run with debug information
-mvn clean test -X
-```
 
-## 📝 Sample Test Output
-
-```
-Scenario: Create a new user
-  Given I set POST endpoint for user                     ✓
-  When I send POST request with name "John" and job "QA" ✓
-  Then I receive valid status code 201                   ✓
-  And Response should contain name "John" and job "QA"   ✓
-
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
-BUILD SUCCESS
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Add your tests
-4. Run the test suite
-5. Submit a pull request
-
-## 📄 License
-
-This project is for educational and testing purposes.
-
----
-
-**Happy Testing!** 🚀
