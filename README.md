@@ -1,8 +1,5 @@
-# API Test Automation with Java, RestAssured & Cucumber
 
-This project demonstrates API testing using **Cucumber BDD framework**, **RestAssured**, and **Java** to test the reqres.in REST API endpoints.
-
-## 📌 Prerequisites
+## Prerequisites
 
 Before running the tests, ensure you have the following installed:
 
@@ -23,7 +20,7 @@ mvn -version
 # Should show Maven 3.6 or higher
 ```
 
-## � Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -41,7 +38,7 @@ cd gherkin-api-test
 mvn clean install
 ```
 
-## �📂 Project Structure
+## Project Structure
 
 ```
 gherkin-api-test/
@@ -66,16 +63,8 @@ gherkin-api-test/
 └── README.md
 ```
 
-## 🧪 Test Scenarios
 
-The test suite covers the following API operations:
-
-1. **Create User** - POST `/api/users`
-2. **Get Users List** - GET `/api/users?page=2`
-3. **Update User** - PUT `/api/users/{id}`
-4. **Delete User** - DELETE `/api/users/{id}`
-
-## 🏃‍♂️ Running Tests
+## Running Tests
 
 ### Run All Tests
 ```bash
@@ -113,7 +102,7 @@ xdg-open target/cucumber-reports.html
 start target/cucumber-reports.html
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### API Configuration
 - **Base URL**: `https://reqres.in/api`
@@ -128,7 +117,7 @@ start target/cucumber-reports.html
 - **JSON**: 20240303
 
 
-## � Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
